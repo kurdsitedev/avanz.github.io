@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Avanzahid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <style>
+        .loder {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100px;
+            background: #0000;
+        }
+        
+        .loder {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            border-radius: 90px;
+            background: linear-gradient(9deg, transparent, transparent 9px, #e5f320);
+            animation: animate 4s linear infinite;
+        }
+        
+        @keyframes animate {
+            0% {
+                transform: rotate(0deg);
+                filter: hue-rotate(90deg)
+            }
+            100% {
+                transform: rotate(10deg);
+                filter: hue-rotate(900deg)
+            }
+        }
+        
+        .loder:before {
+            content: '';
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: 6px;
+            bottom: 90px;
+            background: none;
+            border-radius: 50px;
+            z-index: 10000;
+        }
+        
+        .loder::after {
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 8px;
+            bottom: 90px;
+            background: linear-gradient(50deg, transparent, transparent 40px, #97a104);
+            border-radius: 50px;
+            z-index: 10000;
+            z-index: 10;
+            filter: blur(30px);
+        }
+        
+        body {
+            background-color: darkcyan;
+            background-image: url("l.jpeg");
+            background-repeat: no repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-size: cover;
+        }
+        
+        .box {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 280px;
+            background: rgba(46, 4, 4, 0.705);
+            padding: 45px;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 0;
+            margin-top: 0%;
+            text-align: top;
+            color: rgba(224, 82, 129, 0.993)
+        }
+        
+        .m {
+            margin: auto;
+            margin-top: 0px;
+            padding-top: 0%;
+            border-radius: 70%;
+            width: 200px;
+            height: 200px;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .k {
+            display: inline-block;
+            margin-top: 0px;
+            padding: 10px;
+            list-style: none;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="loder"> <img src="k.jpg" / width="150" height="150" class="m"></div>
+        <br>
+        <h4>Avo.cod3r</h4>
+        <i>
+<p> “We are all alone,born alone,die alone"<br>
+            dep of information technology</p></i>
+
+        <ul class="list-group list-group-flush">
+            <div class="k">
+                <a href="https://twitter.com/AvanZahid" target="_blank">
+                    <li class="k">
+                        <p class="fa fa-twitter" aria-hidden="true"></p>
+                        </p>
+                    </li>
+                </a>
+                <a href="https://www.instagram.com/avo.cod3r/" target="_blank">
+                    <li class="k">
+                        <p class="fa fa-instagram" aria-hidden="true"></p>
+                    </li>
+                </a>
+                <a href="https://www.youtube.com/channel/UCyKBDUX8YzCLKBCs1xcsEFA" target="_blank">
+                    <li class="k">
+                        <p class="fa fa-youtube" aria-hidden="true"></p>
+                    </li>
+                </a>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>
